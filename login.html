@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Business Name</title>
+    <link rel="stylesheet" href="login.css"> <!-- Link to your CSS file -->
+    <script src="script.js" defer></script> <!-- Link to your JavaScript file -->
+</head>
+<body>
+    <header>
+        <h3>Get tickets to the latest concerts</h3>
+   
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+</header>
+    <main>
+        <section class="login">
+            <h2>Login</h2>
+            <form action="login_process.php" method="POST">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+        </section>
+
+    <footer>
+        <p>&copy; 2024 Business Name. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://youtube.com/@DarshanRavalDZ?si=YOn8OX8Zqgj1B1jJ" target="_blank">YouTube</a>
+            <a href="https://www.instagram.com/darshanravaldz" target="_blank">Instagram</a>
+            <a href="https://twitter.com/username" target="_blank">Twitter</a>
+            <a href="https://open.spotify.com/artist/2GoeZ0qOTt6kjsWW4eA6LS?si=Z0HVB8UrS-CICPqZUjKSsA" target="_blank">Spotify</a>
+        </div>
+    </footer>
+</body>
+</html>
